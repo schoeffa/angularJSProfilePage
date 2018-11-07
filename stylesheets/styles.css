@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v3/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    font-family: 'Work Sans';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #EEE;
+}
+
+label {
+    color: #1ECEFD;
+    font-size: 1.2em;
+}
+.container {
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+}
+
+.profilepic {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+input {
+    padding: 14px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 2px solid #505355;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #505355;
+    border: none;
+    border-radius: 15px;
+    color: #EEE;
+    width: 100%;
+    font-size: 1.25em;
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+button:hover {
+    background-color: #5BECD8;
+    color: #505355;
+}
+
+.profileinfo {
+    padding: 15px;
+}
+
+.profileinfo :first-child{
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.profileinfo :nth-child(2){
+    margin-top: 0px;
+    color: silver;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    background-color: white;
+}
+
+form p {
+    font-size: 1.3em;
+}
+
+textarea {
+    border: 2px solid #505355;
+    font-size: 1.2em;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    height: 100px;
+}
+
+.profileinfo p:last-of-type {
+    display: none;
+}
+
+select {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 14px;
+    font-size: 1.2em;
+    border: 2px solid #505355;
+}

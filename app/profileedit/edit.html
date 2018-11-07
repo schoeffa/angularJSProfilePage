@@ -1,0 +1,23 @@
+<section class="container">
+    <form>
+        <p>Use the form below to update your profile.</p>
+        <label>Select Profile Pic</label>
+        <select ng-model="$ctrl.user.pic">
+            <option value="/images/agriculture-animal-baby-286580.jpg">Grant Chirpus</option>
+            <option value="/images/adorable-animal-blur-406014.jpg">Cute Puppy</option>
+            <option value="/images/adorable-animal-animal-world-209037.jpg">Shy Kitty</option>
+            <option value="/images/animal-antelope-barbaric-469676.jpg">Antelope</option>
+            <option value="/images/animal-ape-banana-321552.jpg">Ape</option>
+            <option value="/images/animal-avian-beak-1526410.jpg">Pensive Bird</option>
+            <option value="/images/animal-black-and-white-cute-164703.jpg">Jazz Animal</option>
+            <option value="/images/animal-cat-face-close-up-416160.jpg">Cute Kitty</option>
+        </select>
+        <label>Name</label>
+        <input type="text" ng-model="$ctrl.user.name">
+        <label>Contact</label>
+        <input type="text" ng-model="$ctrl.user.contact">
+        <label>Bio</label>
+        <textarea ng-model="$ctrl.user.bio"></textarea>
+        <button ng-click="$ctrl.updateProfile($ctrl.user)">Update</button>
+    </form>
+</section>

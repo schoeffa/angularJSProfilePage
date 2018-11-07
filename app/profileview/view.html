@@ -1,0 +1,7 @@
+<section class="container">
+    <img class="profilepic" src="{{$ctrl.user.pic}}">
+    <section class="profileinfo">
+        <p ng-repeat="info in $ctrl.user">{{ info }}</p>
+        <button ng-click="$ctrl.loadEdit();">Edit</button>
+    </section>
+</section>
